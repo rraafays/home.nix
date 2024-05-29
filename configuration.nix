@@ -17,16 +17,6 @@ in
   home-manager.users.raf = {
     home.stateVersion = "18.09";
     home.enableNixpkgsReleaseCheck = false;
-    programs.git = {
-      enable = true;
-      userName = "raf";
-      userEmail = "rraf@tuta.io";
-      extraConfig = {
-        init.defaultBranch = "main";
-        push.autoSetupRemote = true;
-      };
-    };
-
     home.packages = with pkgs; [
       adbfs-rootless
       android-tools
