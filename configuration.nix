@@ -28,6 +28,7 @@ in
       mpv
       newsboat
       openvpn
+      playerctl
       speedtest-rs
       typer
       cliphist
