@@ -33,6 +33,7 @@ in
       typer
       cliphist
       gamescope
+      gamescope-wsi
       grim
       rofi
       slurp
