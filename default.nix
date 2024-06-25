@@ -35,8 +35,8 @@ in
       gamescope
       gamescope-wsi
       grim
-      rofi
       slurp
+      tofi
       wl-clipboard
       xdg-utils
       nur.repos.wolfangaukang.mouseless
