@@ -1,11 +1,6 @@
 { pkgs, lib, ... }:
 
-let
-  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz";
-in
 {
-  imports = [ "${home-manager}/nixos" ];
-
   nixpkgs.config = {
     allowUnfree = true;
     packageOverrides = pkgs: {
