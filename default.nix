@@ -20,6 +20,7 @@ in
     home.packages = with pkgs; [
       adbfs-rootless
       android-tools
+      unstable.impala
       jetbrains.idea-ultimate
       kitty
       fzf
