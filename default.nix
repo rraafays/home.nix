@@ -10,50 +10,49 @@
   };
 
   home-manager.users.raf = {
-    home.stateVersion = "18.09";
-    home.enableNixpkgsReleaseCheck = false;
-    home.packages = with pkgs; [
-      adbfs-rootless
-      android-tools
-      unstable.impala
-      jetbrains.idea-ultimate
-      kitty
-      fzf
-      jq
-      mprocs
-      mpv
-      newsboat
-      openvpn
-      playerctl
-      speedtest-rs
-      typer
-      cliphist
-      gamescope
-      gamescope-wsi
-      grim
-      slurp
-      tofi
-      wl-clipboard
-      xdg-utils
-      nur.repos.wolfangaukang.mouseless
-      soulseekqt
-      transmission
-      xdg-user-dirs
-    ];
-
-  home.sessionVariables = {
-      XDG_DESKTOP_DIR = "$HOME/Desktop";
-      XDG_DOWNLOAD_DIR = "$HOME/Downloads";
-      XDG_TEMPLATES_DIR = "$HOME/Templates";
-      XDG_PUBLICSHARE_DIR = "$HOME/Public";
-      XDG_DOCUMENTS_DIR = "$HOME/Documents";
-      XDG_MUSIC_DIR = "$HOME/Music";
-      XDG_PICUTRES_DIR = "$HOME/Pictures";
-      XDG_VIDEOS_DIR = "$HOME/Videos";
-  };
-
-  home.activation.xdg-user-dirs = lib.mkAfter ''
-${pkgs.xdg-user-dirs}/bin/xdg-user-dirs-update
-  '';
+    home = {
+        enableNixpkgsReleaseCheck = false;
+        packages = with pkgs; [
+          adbfs-rootless
+          android-tools
+          unstable.impala
+          jetbrains.idea-ultimate
+          kitty
+          fzf
+          jq
+          mprocs
+          mpv
+          newsboat
+          openvpn
+          playerctl
+          speedtest-rs
+          typer
+          cliphist
+          gamescope
+          gamescope-wsi
+          grim
+          slurp
+          tofi
+          wl-clipboard
+          xdg-utils
+          nur.repos.wolfangaukang.mouseless
+          soulseekqt
+          transmission
+          xdg-user-dirs
+        ];
+      sessionVariables = {
+          XDG_DESKTOP_DIR = "$HOME/Desktop";
+          XDG_DOWNLOAD_DIR = "$HOME/Downloads";
+          XDG_TEMPLATES_DIR = "$HOME/Templates";
+          XDG_PUBLICSHARE_DIR = "$HOME/Public";
+          XDG_DOCUMENTS_DIR = "$HOME/Documents";
+          XDG_MUSIC_DIR = "$HOME/Music";
+          XDG_PICUTRES_DIR = "$HOME/Pictures";
+          XDG_VIDEOS_DIR = "$HOME/Videos";
+      };
+      activation.xdg-user-dirs = lib.mkAfter ''
+    ${pkgs.xdg-user-dirs}/bin/xdg-user-dirs-update
+      '';
+        };
   };
 }
