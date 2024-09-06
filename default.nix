@@ -1,5 +1,8 @@
 { pkgs, lib, ... }:
 
+let
+    USER = "raf";
+in
 {
   nixpkgs.config = {
     allowUnfree = true;
@@ -9,7 +12,7 @@
     };
   };
 
-  home-manager.users.raf = {
+  home-manager.users.${USER} = {
     home = {
         enableNixpkgsReleaseCheck = false;
         packages = with pkgs; [
