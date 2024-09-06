@@ -16,27 +16,11 @@
           adbfs-rootless
           android-tools
           jetbrains.idea-ultimate
-          kitty
-          fzf
-          jq
           mprocs
           mpv
-          newsboat
-          openvpn
-          playerctl
-          speedtest-rs
           typer
-          cliphist
-          gamescope
-          gamescope-wsi
-          grim
-          slurp
-          tofi
-          wl-clipboard
           xdg-utils
-          nur.repos.wolfangaukang.mouseless
           soulseekqt
-          transmission
           xdg-user-dirs
         ];
       sessionVariables = {
