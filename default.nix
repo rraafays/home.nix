@@ -29,6 +29,7 @@ in
         xdg-utils
         soulseekqt
         xdg-user-dirs
+        zathura
       ];
       sessionVariables = {
         XDG_DESKTOP_DIR = "$HOME/Desktop";
