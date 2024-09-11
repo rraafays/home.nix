@@ -4,18 +4,6 @@ let
   USER = "raf";
 in
 {
-  nixpkgs.config = {
-    allowUnfree = true;
-    packageOverrides = pkgs: {
-      nur = import (fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
-        inherit pkgs;
-      };
-      unstable =
-        import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz")
-          { };
-    };
-  };
-
   home-manager.users.${USER} = {
     home = {
       enableNixpkgsReleaseCheck = false;
