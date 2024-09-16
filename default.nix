@@ -18,6 +18,7 @@ in
         soulseekqt
         xdg-user-dirs
         zathura
+        quickemu
       ];
       sessionVariables = {
         XDG_DESKTOP_DIR = "$HOME/Desktop";
