@@ -10,6 +10,7 @@ in
       packages = with pkgs; [
         adbfs-rootless
         android-tools
+        drawio
         jetbrains.idea-ultimate
         mprocs
         mpv
