@@ -20,6 +20,7 @@ in
         xdg-user-dirs
         zathura
         quickemu
+        ardour
       ];
       sessionVariables = {
         XDG_DESKTOP_DIR = "$HOME/Desktop";
@@ -34,6 +35,20 @@ in
       activation.xdg-user-dirs = lib.mkAfter ''
         ${pkgs.xdg-user-dirs}/bin/xdg-user-dirs-update
       '';
+    };
+    xdg.desktopEntries = {
+      drawio = {
+        name = "Drawio";
+        exec = "drawio";
+        terminal = false;
+        categories = [ "Application" ];
+      };
+      ardour = {
+        name = "Ardour";
+        exec = "ardour8";
+        terminal = false;
+        categories = [ "Application" ];
+      };
     };
   };
 }
