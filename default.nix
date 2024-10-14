@@ -21,6 +21,7 @@ in
         zathura
         quickemu
         ardour
+        google-chrome
       ];
       sessionVariables = {
         XDG_DESKTOP_DIR = "$HOME/Desktop";
