@@ -12,19 +12,21 @@ in
         packages = with pkgs; [
           adbfs-rootless
           android-tools
+          ardour
           drawio
+          google-chrome
           jetbrains.idea-ultimate
+          kdenlive
           mprocs
           mpv
-          typer
-          xdg-utils
-          soulseekqt
-          xdg-user-dirs
-          zathura
           quickemu
-          ardour
-          google-chrome
+          soulseekqt
           transmission-qt
+          typer
+          vlc
+          xdg-user-dirs
+          xdg-utils
+          zathura
         ];
         sessionVariables = {
           XDG_DESKTOP_DIR = "$HOME/Desktop";
