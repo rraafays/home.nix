@@ -24,6 +24,7 @@ in
           quickemu
           ardour
           google-chrome
+          transmission-qt
         ];
         sessionVariables = {
           XDG_DESKTOP_DIR = "$HOME/Desktop";
