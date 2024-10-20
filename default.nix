@@ -19,7 +19,6 @@ in
           kdenlive
           mprocs
           mpv
-          nemu
           nicotine-plus
           quickemu
           transmission-qt
