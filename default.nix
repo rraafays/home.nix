@@ -19,8 +19,8 @@ in
           kdenlive
           mprocs
           mpv
+          nicotine-plus
           quickemu
-          soulseekqt
           transmission-qt
           typer
           vlc
