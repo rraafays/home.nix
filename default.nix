@@ -15,6 +15,7 @@ in
           ardour
           drawio
           google-chrome
+          haruna
           jetbrains.idea-ultimate
           kdenlive
           mprocs
@@ -23,7 +24,6 @@ in
           quickemu
           transmission-qt
           typer
-          vlc
           xdg-user-dirs
           xdg-utils
           zathura
