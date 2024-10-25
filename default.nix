@@ -21,7 +21,7 @@ in
           mpv
           nicotine-plus
           quickemu
-          transmission-qt
+          transmission_4-qt6
           typer
           vlc
           xdg-user-dirs
