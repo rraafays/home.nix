@@ -24,6 +24,7 @@ in
           quickemu
           transmission-qt
           typer
+          ungoogled-chromium
           xdg-user-dirs
           xdg-utils
           zathura
