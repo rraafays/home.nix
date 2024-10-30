@@ -13,6 +13,7 @@ in
           adbfs-rootless
           android-tools
           ardour
+          brave
           drawio
           google-chrome
           haruna
@@ -24,7 +25,6 @@ in
           quickemu
           transmission-qt
           typer
-          ungoogled-chromium
           xdg-user-dirs
           xdg-utils
           zathura
