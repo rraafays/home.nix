@@ -13,7 +13,6 @@ in
           adbfs-rootless
           android-tools
           ardour
-          brave
           drawio
           google-chrome
           haruna
