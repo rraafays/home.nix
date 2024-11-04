@@ -13,6 +13,7 @@ in
           adbfs-rootless
           android-tools
           ardour
+          bandwhich
           brave
           drawio
           google-chrome
