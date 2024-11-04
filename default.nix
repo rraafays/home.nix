@@ -24,6 +24,7 @@ in
           mpv
           nicotine-plus
           quickemu
+          rhythmbox
           transmission-qt
           typer
           xdg-user-dirs
