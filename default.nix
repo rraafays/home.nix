@@ -27,6 +27,7 @@ in
           rhythmbox
           transmission-qt
           typer
+          unstable.kitty
           xdg-user-dirs
           xdg-utils
           zathura
