@@ -23,7 +23,6 @@ in
           mprocs
           mpv
           nicotine-plus
-          python312Packages.pywal
           quickemu
           rhythmbox
           transmission-qt
