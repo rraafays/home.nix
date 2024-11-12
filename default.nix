@@ -31,6 +31,7 @@ in
           xdg-user-dirs
           xdg-utils
           zathura
+          staruml
         ];
         sessionVariables = {
           XDG_DESKTOP_DIR = "$HOME/Desktop";
