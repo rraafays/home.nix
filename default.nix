@@ -2,11 +2,22 @@
 
 let
   USER = "raf";
+  EMAIL = "rraf@tuta.io";
 in
 {
   home-manager = {
     backupFileExtension = "backup";
     users.${USER} = {
+      programs.git = {
+        enable = true;
+        userName = USER;
+        userEmail = EMAIL;
+        extraConfig = {
+          push = {
+            autoSetupRemote = true;
+          };
+        };
+      };
       home = {
         enableNixpkgsReleaseCheck = false;
         packages = with pkgs; [
