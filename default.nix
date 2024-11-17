@@ -25,24 +25,24 @@ in
           android-tools
           ardour
           bandwhich
-          brave
           drawio
           google-chrome
           haruna
           jetbrains.idea-ultimate
           kdenlive
+          librewolf
           mprocs
           mpv
           nicotine-plus
           quickemu
           rhythmbox
+          staruml
           transmission-qt
           typer
           unstable.kitty
           xdg-user-dirs
           xdg-utils
           zathura
-          staruml
         ];
         sessionVariables = {
           XDG_DESKTOP_DIR = "$HOME/Desktop";
