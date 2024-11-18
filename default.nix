@@ -36,6 +36,7 @@ in
           nicotine-plus
           quickemu
           rhythmbox
+          sacad
           staruml
           transmission-qt
           typer
