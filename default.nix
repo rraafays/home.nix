@@ -25,6 +25,7 @@ in
           android-tools
           ardour
           bandwhich
+          beet
           drawio
           google-chrome
           haruna
@@ -33,7 +34,6 @@ in
           librewolf
           mprocs
           mpv
-          muso
           nicotine-plus
           quickemu
           rhythmbox
