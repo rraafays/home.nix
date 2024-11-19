@@ -33,6 +33,7 @@ in
           librewolf
           mprocs
           mpv
+          muso
           nicotine-plus
           quickemu
           rhythmbox
