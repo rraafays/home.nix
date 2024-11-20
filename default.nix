@@ -25,7 +25,7 @@ in
           android-tools
           ardour
           bandwhich
-          beet
+          beets
           drawio
           google-chrome
           haruna
