@@ -25,7 +25,6 @@ in
           android-tools
           ardour
           bandwhich
-          beets
           drawio
           google-chrome
           haruna
@@ -36,8 +35,7 @@ in
           mpv
           nicotine-plus
           quickemu
-          rhythmbox
-          sacad
+          picard
           staruml
           transmission-qt
           typer
