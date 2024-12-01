@@ -37,7 +37,7 @@ in
           quickemu
           picard
           staruml
-          transmission-qt
+          transmission_4-qt
           typer
           unstable.kitty
           xdg-user-dirs
