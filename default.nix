@@ -34,8 +34,9 @@ in
           mprocs
           mpv
           nicotine-plus
-          quickemu
+          obs-studio
           picard
+          quickemu
           staruml
           transmission_4-qt
           typer
