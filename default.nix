@@ -37,10 +37,12 @@ in
           obs-studio
           picard
           quickemu
+          spotify
           staruml
           transmission_4-qt
           typer
           unstable.kitty
+          vscode
           xdg-user-dirs
           xdg-utils
           zathura
