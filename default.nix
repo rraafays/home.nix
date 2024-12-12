@@ -37,6 +37,7 @@ in
           obs-studio
           picard
           quickemu
+          songrec
           spotify
           staruml
           transmission_4-qt
