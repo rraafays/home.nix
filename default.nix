@@ -21,6 +21,7 @@ in
       home = {
         enableNixpkgsReleaseCheck = false;
         packages = with pkgs; [
+          discord
           adbfs-rootless
           android-tools
           ardour
