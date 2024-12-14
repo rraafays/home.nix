@@ -44,6 +44,7 @@ in
           typer
           unstable.kitty
           vscode
+          whatsapp-for-linux
           xdg-user-dirs
           xdg-utils
           zathura
