@@ -21,11 +21,12 @@ in
       home = {
         enableNixpkgsReleaseCheck = false;
         packages = with pkgs; [
-          discord
+          spotdl
           adbfs-rootless
           android-tools
           ardour
           bandwhich
+          discord
           drawio
           google-chrome
           haruna
