@@ -21,7 +21,6 @@ in
       home = {
         enableNixpkgsReleaseCheck = false;
         packages = with pkgs; [
-          spotdl
           adbfs-rootless
           android-tools
           ardour
@@ -39,7 +38,9 @@ in
           obs-studio
           picard
           quickemu
+          sacad
           songrec
+          spotdl
           spotify
           staruml
           transmission_4-qt
