@@ -28,7 +28,6 @@ in
           discord
           drawio
           google-chrome
-          haruna
           jetbrains.idea-ultimate
           kdenlive
           librewolf
