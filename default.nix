@@ -8,6 +8,17 @@ in
   home-manager = {
     backupFileExtension = "backup";
     users.${USER} = {
+      services.mpd = {
+        enable = true;
+        musicDirectory = "/home/${USER}/Music/";
+        extraConfig = ''
+          audio_output {
+            type "pulse"
+            name "Pulseaudio"
+            server "127.0.0.1"
+          }
+        '';
+      };
       programs.git = {
         enable = true;
         userName = USER;
@@ -37,6 +48,7 @@ in
           obs-studio
           picard
           quickemu
+          rmpc
           sacad
           songrec
           spotdl
