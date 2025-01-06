@@ -44,12 +44,14 @@ in
           librewolf
           mprocs
           mpv
+          mus
           nicotine-plus
           obs-studio
           picard
           quickemu
           rmpc
           sacad
+          sonata
           songrec
           spotdl
           spotify
