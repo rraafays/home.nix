@@ -38,10 +38,12 @@ in
           bandwhich
           discord
           drawio
+          feh
           google-chrome
           jetbrains.idea-ultimate
           kdenlive
           librewolf
+          mpc
           mprocs
           mpv
           mus
