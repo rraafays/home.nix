@@ -1,32 +1,13 @@
-{
-  pkgs,
-  lib,
-  config,
-  ...
-}:
+{ pkgs, lib, ... }:
 
 let
   USER = "raf";
   EMAIL = "rraf@tuta.io";
 in
 {
-  services.mpd.user = USER;
-  systemd.services.mpd.environment = {
-    XDG_RUNTIME_DIR = "/run/user/${toString config.users.users.${USER}.uid}";
-  };
   home-manager = {
     backupFileExtension = "backup";
     users.${USER} = {
-      services.mpd = {
-        enable = true;
-        musicDirectory = "/home/${USER}/Music/";
-        extraConfig = ''
-          audio_output {
-            type "pipewire"
-            name "My PipeWire Output"
-          }
-        '';
-      };
       programs.git = {
         enable = true;
         userName = USER;
