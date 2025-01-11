@@ -1,10 +1,19 @@
-{ pkgs, lib, ... }:
+{
+  pkgs,
+  lib,
+  config,
+  ...
+}:
 
 let
   USER = "raf";
   EMAIL = "rraf@tuta.io";
 in
 {
+  services.mpd.user = USER;
+  systemd.services.mpd.environment = {
+    XDG_RUNTIME_DIR = "/run/user/${toString config.users.users.${USER}.uid}";
+  };
   home-manager = {
     backupFileExtension = "backup";
     users.${USER} = {
@@ -13,9 +22,8 @@ in
         musicDirectory = "/home/${USER}/Music/";
         extraConfig = ''
           audio_output {
-            type "pulse"
-            name "Pulseaudio"
-            server "127.0.0.1"
+            type "pipewire"
+            name "My PipeWire Output"
           }
         '';
       };
