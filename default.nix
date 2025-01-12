@@ -49,10 +49,12 @@ in
           sptlrx
           staruml
           transmission_4-qt
+          ttchat
           typer
           unstable.kitty
           vscode
           whatsapp-for-linux
+          wtwitch
           xdg-user-dirs
           xdg-utils
           zathura
