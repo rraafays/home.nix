@@ -46,6 +46,7 @@ in
           songrec
           spotdl
           spotify
+          sptlrx
           staruml
           transmission_4-qt
           typer
