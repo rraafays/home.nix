@@ -57,6 +57,7 @@ in
           wtwitch
           xdg-user-dirs
           xdg-utils
+          yt-dlp-light
           zathura
         ];
         sessionVariables = {
