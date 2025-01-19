@@ -48,6 +48,8 @@ in
           spotify
           sptlrx
           staruml
+          subdl
+          substudy
           transmission_4-qt
           ttchat
           typer
