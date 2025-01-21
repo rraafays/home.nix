@@ -29,7 +29,9 @@ in
           drawio
           feh
           google-chrome
+          haruna
           jetbrains.idea-ultimate
+          jupyter-all
           kdenlive
           librewolf
           mpc
