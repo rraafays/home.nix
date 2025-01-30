@@ -52,6 +52,7 @@ in
           staruml
           subdl
           substudy
+          todo
           transmission_4-qt
           ttchat
           typer
