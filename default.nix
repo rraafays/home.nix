@@ -25,6 +25,7 @@ in
           android-tools
           ardour
           bandwhich
+          davinci-resolve
           discord
           drawio
           feh
