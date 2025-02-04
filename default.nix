@@ -25,14 +25,11 @@ in
           android-tools
           ardour
           bandwhich
-          davinci-resolve
           discord
           drawio
           feh
           google-chrome
           haruna
-          jetbrains.idea-ultimate
-          jupyter-all
           kdenlive
           librewolf
           mpc
@@ -55,12 +52,8 @@ in
           substudy
           todo
           transmission_4-qt
-          ttchat
-          typer
           unstable.kitty
-          vscode
           whatsapp-for-linux
-          wtwitch
           xdg-user-dirs
           xdg-utils
           yt-dlp-light
