@@ -35,12 +35,10 @@ in
             drawio
             feh
             google-chrome
-            mpc
             mprocs
             mpv
             mus
             nicotine-plus
-            rmpc
             sacad
             spotdl
             sptlrx
@@ -55,6 +53,8 @@ in
           ++ (
             if pkgs.stdenv.isLinux then
               [
+                mpc
+                rmpc
                 haruna
                 librewolf
                 obs-studio
