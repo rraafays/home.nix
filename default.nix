@@ -3,6 +3,10 @@
 let
   USER = "raf";
   EMAIL = "rraf@tuta.io";
+  STATE_VERSION = "24.11";
+
+  inherit (pkgs) stdenv;
+  inherit (lib) mkIf;
 in
 {
   home-manager = {
@@ -19,46 +23,57 @@ in
         };
       };
       home = {
+        stateVersion = STATE_VERSION;
         enableNixpkgsReleaseCheck = false;
-        packages = with pkgs; [
-          adbfs-rootless
-          android-tools
-          ardour
-          bandwhich
-          discord
-          drawio
-          feh
-          google-chrome
-          haruna
-          kdenlive
-          librewolf
-          mpc
-          mprocs
-          mpv
-          mus
-          nicotine-plus
-          obs-studio
-          picard
-          quickemu
-          rmpc
-          sacad
-          sonata
-          songrec
-          spotdl
-          spotify
-          sptlrx
-          staruml
-          subdl
-          substudy
-          todo
-          transmission_4-qt
-          unstable.kitty
-          whatsapp-for-linux
-          xdg-user-dirs
-          xdg-utils
-          yt-dlp-light
-          zathura
-        ];
+        packages =
+          with pkgs;
+          [
+            adbfs-rootless
+            android-tools
+            bandwhich
+            discord
+            drawio
+            feh
+            google-chrome
+            mpc
+            mprocs
+            mpv
+            mus
+            nicotine-plus
+            rmpc
+            sacad
+            spotdl
+            sptlrx
+            subdl
+            substudy
+            todo
+            transmission_4-qt
+            unstable.kitty
+            yt-dlp-light
+            zathura
+          ]
+          ++ (
+            if pkgs.stdenv.isLinux then
+              [
+                haruna
+                librewolf
+                obs-studio
+                picard
+                quickemu
+                sonata
+                songrec
+                spotify
+                staruml
+                whatsapp-for-linux
+                xdg-user-dirs
+                xdg-utils
+                kdenlive
+                ardour
+              ]
+            else
+              [ ]
+          );
+
         sessionVariables = {
           XDG_DESKTOP_DIR = "$HOME/Desktop";
           XDG_DOWNLOAD_DIR = "$HOME/Downloads";
@@ -73,7 +88,7 @@ in
           ${pkgs.xdg-user-dirs}/bin/xdg-user-dirs-update
         '';
       };
-      xdg.desktopEntries = {
+      xdg.desktopEntries = mkIf stdenv.isLinux {
         drawio = {
           name = "Drawio";
           exec = "drawio";
