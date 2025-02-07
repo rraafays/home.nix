@@ -3,7 +3,6 @@
 let
   USER = "raf";
   EMAIL = "rraf@tuta.io";
-  STATE_VERSION = "24.11";
 
   inherit (pkgs) stdenv;
   inherit (lib) mkIf;
@@ -23,7 +22,6 @@ in
         };
       };
       home = {
-        stateVersion = STATE_VERSION;
         enableNixpkgsReleaseCheck = false;
         packages =
           with pkgs;
