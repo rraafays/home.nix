@@ -38,7 +38,11 @@ in
             zathura
           ]
           ++ (
-            if pkgs.stdenv.isLinux then
+            if pkgs.stdenv.isDarwin then
+              [
+                raycast
+              ]
+            else
               [
                 mpc
                 rmpc
@@ -57,8 +61,6 @@ in
                 kdenlive
                 ardour
               ]
-            else
-              [ ]
           );
 
         sessionVariables = {
