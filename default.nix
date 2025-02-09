@@ -32,7 +32,6 @@ in
             subdl
             substudy
             todo
-            transmission_4-qt
             unstable.kitty
             yt-dlp-light
             zathura
@@ -44,13 +43,15 @@ in
               ]
             else
               [
-                mpc
-                rmpc
+                ardour
                 haruna
+                kdenlive
                 librewolf
+                mpc
                 obs-studio
                 picard
                 quickemu
+                rmpc
                 sonata
                 songrec
                 spotify
@@ -58,8 +59,7 @@ in
                 whatsapp-for-linux
                 xdg-user-dirs
                 xdg-utils
-                kdenlive
-                ardour
+                transmission_4-qt
               ]
           );
 
