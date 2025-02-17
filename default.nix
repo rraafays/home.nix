@@ -39,7 +39,9 @@ in
           ++ (
             if pkgs.stdenv.isDarwin then
               [
+                android-file-transfer
                 raycast
+                utm
               ]
             else
               [
