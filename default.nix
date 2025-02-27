@@ -39,6 +39,7 @@ in
           ++ (
             if pkgs.stdenv.isDarwin then
               [
+                aerospace
                 android-file-transfer
                 raycast
                 utm
