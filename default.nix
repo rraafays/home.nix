@@ -18,8 +18,10 @@ in
             adbfs-rootless
             android-tools
             bandwhich
+            devenv
             discord
             drawio
+            fasole
             feh
             google-chrome
             mprocs
