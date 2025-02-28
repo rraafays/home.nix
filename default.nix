@@ -33,7 +33,6 @@ in
             sptlrx
             subdl
             substudy
-            todo
             unstable.kitty
             yt-dlp-light
             zathura
