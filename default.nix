@@ -21,7 +21,6 @@ in
             devenv
             discord
             drawio
-            fasole
             feh
             google-chrome
             mprocs
