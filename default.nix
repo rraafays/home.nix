@@ -23,6 +23,7 @@ in
             drawio
             feh
             google-chrome
+            jetbrains.idea-ultimate
             mprocs
             mpv
             mus
