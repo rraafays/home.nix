@@ -48,7 +48,7 @@ in
               [
                 ardour
                 haruna
-                kdenlive
+                kdePackages.kdenlive
                 librewolf
                 mpc
                 obs-studio
