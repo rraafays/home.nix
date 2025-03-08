@@ -52,7 +52,6 @@ in
                 libreoffice
                 librewolf
                 mpc
-                nur.repos.milahu.cortile
                 obs-studio
                 okteta
                 picard
