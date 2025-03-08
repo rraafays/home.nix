@@ -49,20 +49,26 @@ in
                 ardour
                 haruna
                 kdePackages.kdenlive
+                libreoffice
                 librewolf
                 mpc
                 obs-studio
+                okteta
                 picard
+                protonup-qt
+                qpwgraph
                 quickemu
                 rmpc
                 sonata
                 songrec
                 spotify
                 staruml
+                subtitlecomposer
+                systemdgenie
+                transmission_4-qt
                 whatsapp-for-linux
                 xdg-user-dirs
                 xdg-utils
-                transmission_4-qt
               ]
           );
 
