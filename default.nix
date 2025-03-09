@@ -66,7 +66,6 @@ in
                 subtitlecomposer
                 systemdgenie
                 transmission_4-qt
-                whatsapp-for-linux
                 xdg-user-dirs
                 xdg-utils
               ]
