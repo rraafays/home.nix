@@ -39,7 +39,6 @@ in
           ++ (
             if pkgs.stdenv.isDarwin then
               [
-                aerospace
               ]
             else
               [
