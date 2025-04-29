@@ -23,6 +23,7 @@ in
             drawio
             feh
             google-chrome
+            hyperfine
             mprocs
             mpv
             mus
