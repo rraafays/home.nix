@@ -31,7 +31,6 @@ in
             sacad
             spotdl
             sptlrx
-            subdl
             substudy
             unstable.kitty
             yt-dlp-light
